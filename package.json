@@ -1,0 +1,23 @@
+{
+  "name": "app-with-github-dependency",
+  "version": "1.0.0",
+  "description": "I depend on a git url that has a capital letter in it's name",
+  "dependencies": {
+    "i-am-a-typo": "github:olizilla/oft-typod-dependency-from-git"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olizilla/app-with-typod-github-dependency.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olizilla/app-with-typod-github-dependency/issues"
+  },
+  "homepage": "https://github.com/olizilla/app-with-typod-github-dependency#readme"
+}
